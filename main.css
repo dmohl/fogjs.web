@@ -5,7 +5,39 @@ body {
 }
 
 .jumbotron {
-    background: #3276b1; /* for non-css3 browsers */
+    background: #3276b1;
 	color: #fff;
+    margin-bottom: 0px;
 }
 
+.bs-docs-social {
+    -webkit-box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+    background-color: #f5f5f5;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.bs-docs-social-buttons {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.bs-docs-social-buttons li {
+    display: inline-block;
+    padding: 5px 0;
+    line-height: 1;
+}
+
+.homeThreeColumns {
+    margin-top: 100px;
+}
+
+footer p {
+    text-align: center;
+}
